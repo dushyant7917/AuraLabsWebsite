@@ -9,6 +9,7 @@ import TermsAndConditions from "./pages/sanskaar/TermsAndConditions";
 import PrivacyPolicy from "./pages/sanskaar/PrivacyPolicy";
 import RefundsAndCancellation from "./pages/sanskaar/RefundsAndCancellation";
 import ShippingPolicy from "./pages/sanskaar/ShippingPolicy";
+import SanskaarHome from "./pages/sanskaar/Home";
 import SanskaarContact from "./pages/sanskaar/Contact";
 
 function Home() {
@@ -30,6 +31,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/sanskaar" element={<SanskaarHome />} />
       <Route path="/sanskaar/terms-and-conditions" element={<TermsAndConditions />} />
       <Route path="/sanskaar/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/sanskaar/refunds-and-cancellation" element={<RefundsAndCancellation />} />

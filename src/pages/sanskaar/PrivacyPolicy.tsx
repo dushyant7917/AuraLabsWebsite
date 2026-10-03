@@ -71,8 +71,9 @@ export default function PrivacyPolicy() {
 
       <PolicySection title="7. Your rights">
         <p>
-          You can access, correct or request deletion of your personal information, and you can
-          withdraw consent for optional processing. To do so, email us at{" "}
+          You can access, correct or request deletion of your personal information, request
+          deletion of your Sanskaar account, and withdraw consent for optional processing. To do
+          so, email us at{" "}
           <a href={`mailto:${SANSKAAR_SUPPORT_EMAIL}`} className="text-gold-light hover:underline">
             {SANSKAAR_SUPPORT_EMAIL}
           </a>
