@@ -11,6 +11,7 @@ import RefundsAndCancellation from "./pages/sanskaar/RefundsAndCancellation";
 import ShippingPolicy from "./pages/sanskaar/ShippingPolicy";
 import SanskaarHome from "./pages/sanskaar/Home";
 import SanskaarContact from "./pages/sanskaar/Contact";
+import SanskaarSignup from "./pages/sanskaar/Signup";
 
 function Home() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
       <Route path="/sanskaar/refunds-and-cancellation" element={<RefundsAndCancellation />} />
       <Route path="/sanskaar/shipping-policy" element={<ShippingPolicy />} />
       <Route path="/sanskaar/contact" element={<SanskaarContact />} />
+      <Route path="/sanskaar/signup" element={<SanskaarSignup />} />
     </Routes>
   );
 }

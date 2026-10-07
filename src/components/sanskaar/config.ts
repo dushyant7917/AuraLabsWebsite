@@ -7,6 +7,9 @@ export const SANSKAAR_WHATSAPP_NUMBER = "917090058560";
 
 export const SANSKAAR_SUPPORT_EMAIL = "contact@byauralabs.com";
 export const COMPANY_NAME = "Aura Labs";
+
+// app_name sent to the backend for signup/OTP; must be identical on every call.
+export const SANSKAAR_APP_NAME = "SanskaarWebsite";
 export const LAST_UPDATED = "October 3, 2026";
 
 export const SANSKAAR_PAGES = [

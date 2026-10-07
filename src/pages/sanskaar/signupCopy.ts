@@ -1,0 +1,31 @@
+import type { SignupCopy } from "../../components/signup/types";
+
+export const sanskaarSignupCopy: SignupCopy = {
+  googleTitle: "संस्कार से जुड़ें",
+  googleSubtitle: "शुरू करने के लिए अपने Google खाते से जारी रखें।",
+  checkingAccount: "आपका खाता जाँचा जा रहा है...",
+  phoneTitle: "अपना मोबाइल नंबर दर्ज करें",
+  phoneSubtitle: (email) => `${email} के रूप में साइन इन हैं`,
+  phonePlaceholder: "10 अंकों का मोबाइल नंबर",
+  sendOtp: "OTP भेजें",
+  sendingOtp: "OTP भेजा जा रहा है...",
+  otpTitle: "OTP दर्ज करें",
+  otpSubtitle: (fullPhone) => `OTP ${fullPhone} पर भेजा गया है`,
+  otpPlaceholder: "----",
+  verify: "OTP जाँचें",
+  verifying: "जाँच हो रही है...",
+  changeNumber: "नंबर बदलें",
+  resendOtp: "OTP दोबारा भेजें",
+  resendIn: (seconds) => `${seconds} सेकंड में दोबारा भेजें`,
+  errors: {
+    otp_invalid: "गलत OTP। कृपया दोबारा जाँचें।",
+    otp_expired: "OTP की समय सीमा समाप्त हो गई है। कृपया नया OTP मँगवाएँ।",
+    otp_not_found: "OTP नहीं मिला। कृपया नया OTP मँगवाएँ।",
+    network: "इंटरनेट कनेक्शन में समस्या है। कृपया दोबारा प्रयास करें।",
+    unknown: "कुछ गलत हो गया। कृपया दोबारा प्रयास करें।",
+    invalid_phone: "कृपया 10 अंकों का सही मोबाइल नंबर दर्ज करें।",
+    invalid_otp: "कृपया सही OTP दर्ज करें।",
+    google_failed: "Google से साइन इन नहीं हो सका। कृपया दोबारा प्रयास करें।",
+    config_missing: "साइन अप अभी उपलब्ध नहीं है। कृपया बाद में प्रयास करें।",
+  },
+};

@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Trebuchet MS", "Trebuchet SMS", Verdana, sans-serif;
-  --font-sans: "Trebuchet MS", "Trebuchet SMS", Verdana, sans-serif;
+  --font-display: "Trebuchet MS", "Trebuchet SMS", Verdana, "Noto Sans Devanagari", sans-serif;
+  --font-sans: "Trebuchet MS", "Trebuchet SMS", Verdana, "Noto Sans Devanagari", sans-serif;
 
   --color-ink: #0a0a09;
   --color-surface: #121110;

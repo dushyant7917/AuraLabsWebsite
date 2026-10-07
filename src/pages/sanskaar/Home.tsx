@@ -50,9 +50,14 @@ export default function SanskaarHome() {
             favourite gods and goddesses into everyday life with sacred sounds, mantras, bhajans and
             beautiful visuals, all in one place.
           </p>
-          <span className="mt-8 inline-block rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5 text-sm text-gold-light">
-            Launching soon
-          </span>
+          <div className="mt-8 flex justify-center">
+            <Link
+              to="/sanskaar/signup"
+              className="rounded-full bg-linear-to-r from-gold-dark to-gold-light px-6 py-3 text-sm font-semibold text-ink shadow-[0_0_30px_-5px_rgba(255,215,0,0.6)] transition-transform hover:scale-105"
+            >
+              Sign Up
+            </Link>
+          </div>
         </section>
 
         <section id="features" className="mx-auto max-w-5xl scroll-mt-20 px-6 py-16">
