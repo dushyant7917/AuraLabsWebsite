@@ -36,7 +36,7 @@ export default function Apps() {
             A small, focused portfolio
           </h2>
           <p className="mt-4 text-white/60">
-            Every app we ship does one thing well, without any feature bloat.
+            Every app we ship is thoughtfully designed and built to do its job well.
           </p>
         </div>
 

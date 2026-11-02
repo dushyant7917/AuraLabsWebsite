@@ -1,3 +1,6 @@
+import { Link } from "react-router";
+import { COMPANY_PAGES } from "./company/config";
+
 export default function Footer() {
   const year = new Date().getFullYear();
 
@@ -13,6 +16,13 @@ export default function Footer() {
           contact@byauralabs.com
         </a>
       </div>
+      <nav className="mx-auto mt-6 flex max-w-6xl flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-white/40">
+        {COMPANY_PAGES.map((page) => (
+          <Link key={page.to} to={page.to} className="hover:text-white/70">
+            {page.label}
+          </Link>
+        ))}
+      </nav>
     </footer>
   );
 }

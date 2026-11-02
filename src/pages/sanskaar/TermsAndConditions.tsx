@@ -85,8 +85,8 @@ export default function TermsAndConditions() {
 
       <PolicySection title="10. Governing law">
         <p>
-          These terms are governed by the laws of India. Courts at the place where {COMPANY_NAME}
-          is registered will have jurisdiction over disputes.
+          These terms are governed by the laws of India. Courts at the place where{" "}
+          {COMPANY_NAME} is registered will have jurisdiction over disputes.
         </p>
       </PolicySection>
 
