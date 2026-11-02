@@ -11,7 +11,7 @@ const apps: App[] = [
   {
     name: "Daily Story",
     description:
-      "Helps news reporters and the owners of news channels, papers and pages market themselves across WhatsApp, Facebook, Instagram and YouTube.",
+      "A design tool for news reporters, media channels, and newspaper owners.",
     glyph: "◐",
     logo: "/logos/daily-story-logo.webp",
     status: "Live",
@@ -24,13 +24,6 @@ const apps: App[] = [
     glyph: "ॐ",
     logo: "/logos/sanskaar-logo.webp",
     status: "Launching soon",
-  },
-  {
-    name: "Janta",
-    description:
-      "Hyperlocal news for your neighborhood — what's happening nearby, from people who live there.",
-    glyph: "?",
-    status: "Coming soon",
   },
 ];
 
@@ -47,7 +40,7 @@ export default function Apps() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2">
           {apps.map((app) => {
             const Card = (
               <div className="glow-card group h-full rounded-3xl border border-white/10 bg-white/3 p-8 transition-colors hover:bg-white/5">
