@@ -14,6 +14,7 @@ import CompanyPrivacy from "./pages/company/PrivacyPolicy";
 import CompanyContact from "./pages/company/Contact";
 import CompanyPricing from "./pages/company/Pricing";
 import CompanyRefunds from "./pages/company/RefundsAndCancellations";
+import CompanyShipping from "./pages/company/ShippingPolicy";
 import SanskaarHome from "./pages/sanskaar/Home";
 import SanskaarContact from "./pages/sanskaar/Contact";
 import SanskaarSignup from "./pages/sanskaar/Signup";
@@ -42,6 +43,7 @@ export default function App() {
       <Route path="/contact" element={<CompanyContact />} />
       <Route path="/pricing" element={<CompanyPricing />} />
       <Route path="/refunds-and-cancellations" element={<CompanyRefunds />} />
+      <Route path="/shipping-policy" element={<CompanyShipping />} />
       <Route path="/sanskaar" element={<SanskaarHome />} />
       <Route path="/sanskaar/terms-and-conditions" element={<TermsAndConditions />} />
       <Route path="/sanskaar/privacy-policy" element={<PrivacyPolicy />} />

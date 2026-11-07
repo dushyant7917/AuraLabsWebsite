@@ -7,5 +7,6 @@ export const COMPANY_PAGES = [
   { to: "/privacy-policy", label: "Privacy Policy" },
   { to: "/pricing", label: "Pricing" },
   { to: "/refunds-and-cancellations", label: "Refunds & Cancellations" },
+  { to: "/shipping-policy", label: "Shipping Policy" },
   { to: "/contact", label: "Contact" },
 ] as const;

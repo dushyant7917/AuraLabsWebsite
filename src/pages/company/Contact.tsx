@@ -20,7 +20,7 @@ export default function Contact() {
           </span>
         </a>
 
-        <p className="mt-6 text-sm text-white/40">We usually reply within a couple of days.</p>
+        <p className="mt-6 text-sm text-white/40">We usually reply within a day.</p>
       </div>
     </CompanyLayout>
   );
