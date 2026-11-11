@@ -1,5 +1,6 @@
 export const COMPANY_NAME = "Aura Labs";
 export const COMPANY_EMAIL = "contact@byauralabs.com";
+export const COMPANY_PHONE = "+91 7090058560";
 export const LAST_UPDATED = "November 2, 2026";
 
 export const COMPANY_PAGES = [
