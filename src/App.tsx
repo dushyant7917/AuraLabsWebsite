@@ -18,6 +18,7 @@ import CompanyShipping from "./pages/company/ShippingPolicy";
 import SanskaarHome from "./pages/sanskaar/Home";
 import SanskaarContact from "./pages/sanskaar/Contact";
 import SanskaarSignup from "./pages/sanskaar/Signup";
+import SanskaarDataDeletion from "./pages/sanskaar/DataDeletion";
 
 function Home() {
   return (
@@ -49,6 +50,7 @@ export default function App() {
       <Route path="/sanskaar/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/sanskaar/refunds-and-cancellation" element={<RefundsAndCancellation />} />
       <Route path="/sanskaar/shipping-policy" element={<ShippingPolicy />} />
+      <Route path="/sanskaar/data-deletion" element={<SanskaarDataDeletion />} />
       <Route path="/sanskaar/contact" element={<SanskaarContact />} />
       <Route path="/sanskaar/signup" element={<SanskaarSignup />} />
     </Routes>

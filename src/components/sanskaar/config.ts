@@ -17,5 +17,6 @@ export const SANSKAAR_PAGES = [
   { to: "/sanskaar/privacy-policy", label: "Privacy Policy" },
   { to: "/sanskaar/refunds-and-cancellation", label: "Refunds & Cancellation" },
   { to: "/sanskaar/shipping-policy", label: "Shipping Policy" },
+  { to: "/sanskaar/data-deletion", label: "Data Deletion" },
   { to: "/sanskaar/contact", label: "Contact" },
 ] as const;
