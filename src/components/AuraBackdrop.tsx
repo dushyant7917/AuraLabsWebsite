@@ -1,12 +1,12 @@
 import Twinkles from "./Twinkles";
 
-export default function AuraBackdrop() {
+export default function AuraBackdrop({ twinkles = false }: { twinkles?: boolean }) {
   return (
     <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden bg-ink">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_55%_at_50%_-10%,rgba(255,255,255,0.04),transparent)]" />
       <div className="absolute right-[-10%] top-[-10%] h-[30rem] w-[30rem] rounded-full bg-gold/6 blur-[160px]" />
       <div className="absolute left-[-15%] bottom-[-15%] h-[26rem] w-[26rem] rounded-full bg-gold-dark/5 blur-[160px]" />
-      <Twinkles />
+      {twinkles && <Twinkles />}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_90%_70%_at_50%_35%,transparent_30%,rgba(0,0,0,0.75)_100%)]" />
       <div
         className="absolute inset-0 opacity-[0.025]"

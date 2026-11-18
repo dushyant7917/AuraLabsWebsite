@@ -23,7 +23,7 @@ import SanskaarDataDeletion from "./pages/sanskaar/DataDeletion";
 function Home() {
   return (
     <div className="relative min-h-screen">
-      <AuraBackdrop />
+      <AuraBackdrop twinkles />
       <Navbar />
       <main>
         <Hero />
